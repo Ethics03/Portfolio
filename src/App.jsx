@@ -7,6 +7,7 @@ import Hero from './Components/Hero'
 import About from './Components/About'
 import Tech from './Components/Tech'
 import Projects from './Components/Projects'
+import Contacts from './Components/Contacts'
 import { motion } from "framer-motion"
 
 
@@ -30,6 +31,7 @@ function App() {
     <About/>
     <Tech/>
     <Projects/>
+    <Contacts/>
     </div>
       
       </div>

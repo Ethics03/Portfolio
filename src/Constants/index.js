@@ -1,5 +1,5 @@
 import project1 from '../assets/Tody.jpg';
- import project2 from '../assets/Currency.jpg'
+import project2 from '../assets/Currency.jpg'
  
  export const HERO_CONTENT = "I am a 2nd-Year CSE student from CMRIT Bangalore. I am a passionate full stack developer and love to make scalable web applications. I have made multiple mini-projects and also am working on big ones that help the society and solve real-world problems."
 
@@ -22,3 +22,11 @@ import project1 from '../assets/Tody.jpg';
         technologies: ["HTML","TailwindCSS","React"],
     }
  ]
+
+ export const CONTACT = {
+    address: "CMRIT Bangalore, AECS Layout ,560037",
+    phoneNo: "+91 8957993738",
+    email: "honey032004@gmail.com",
+ }
+
+ export default CONTACT

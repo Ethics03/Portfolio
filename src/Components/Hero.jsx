@@ -25,7 +25,7 @@ const Hero = () => {
                                 variants={container(0.5)}
                                 initial="hidden"
                                 animate = "visible"
-                    className = 'bg-gradient-to-r from-gray-300 via-pink-300 to-cyan-500 bg-clip-text text-4xl tracking-tight text-transparent'
+                    className = 'bg-gradient-to-r from-gray-300 via-pink-300 to-cyan-500 bg-clip-text text-3xl tracking-tight text-transparent'
                     >
                     Full Stack Developer
                     </motion.span>
