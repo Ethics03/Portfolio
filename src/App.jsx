@@ -5,6 +5,12 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import About from './Components/About'
+import Tech from './Components/Tech'
+import { motion } from "framer-motion"
+
+
+
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -21,6 +27,7 @@ function App() {
     <Navbar/>
     <Hero/>
     <About/>
+    <Tech/>
     </div>
       
       </div>
