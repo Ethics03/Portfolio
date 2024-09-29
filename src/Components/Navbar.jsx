@@ -11,10 +11,11 @@ function Navbar() {
             It's Rachit
             </div>
         <div className = 'm-8 flex items-center justify-center gap-4 text-2xl'>
-            <FaLinkedin/>
-            <FaGithub/>
-            <FaSquareXTwitter/>
-            <FaInstagram/>
+
+            <a href="https://www.linkedin.com/in/rachit-srivastava-3b764527a/" target="_blank"><FaLinkedin/></a>
+            <a href="https://github.com/Ethics03" target="_blank"><FaGithub/></a>
+            <a href="https://x.com/___Rachit___" target="_blank"><FaSquareXTwitter/></a>
+            <a href="https://www.instagram.com/___rachit____/" target="_blank"><FaInstagram/></a>
         </div>
        
     </nav>

@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import About from './Components/About'
 import Tech from './Components/Tech'
+import Projects from './Components/Projects'
 import { motion } from "framer-motion"
 
 
@@ -28,6 +29,7 @@ function App() {
     <Hero/>
     <About/>
     <Tech/>
+    <Projects/>
     </div>
       
       </div>
