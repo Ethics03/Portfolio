@@ -10,7 +10,7 @@ function BlogCard() {
         <p class="font-extrabold">Journey to WebDev</p>
         <p class="">So I got a knack for Web Development 
                   after I saw some really cool designs made by people
-                  and also through having an interest in RDMS.
+                  and also through having an interest in RDBMS.
         </p>
     </div>
     <button class="bg-sky-700 font-extrabold p-2 px-6 rounded-xl hover:bg-sky-500 transition-colors">See more</button>
