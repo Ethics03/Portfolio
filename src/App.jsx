@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -9,12 +9,13 @@ import Tech from './Components/Tech'
 import Projects from './Components/Projects'
 import Contacts from './Components/Contacts'
 import { motion } from "framer-motion"
-
+import Blog from './Components/Blog'
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
+ 
 
   return (
     <>
@@ -26,12 +27,16 @@ function App() {
       </div>
      
     <div className = 'container mx-auto px-8'>
+   
     <Navbar/>
     <Hero/>
     <About/>
     <Tech/>
     <Projects/>
+    <Blog/>
     <Contacts/>
+
+
     </div>
       
       </div>
