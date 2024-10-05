@@ -16,7 +16,7 @@ function Blog() {
         </div>
       <div className = 'flex gap-4'>
         <BlogCard/>
-        <BlogCard/>
+        
         </div>
      </div>
   )
