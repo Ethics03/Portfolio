@@ -20,14 +20,14 @@ const Projects = () => {
                     initial={{opacity:0,x:-100}}
                     transition={{duration:0.5}}
                     className ='w-full lg:w-1/4'>
-                    
+                    <a href = {project.links}>
                     <img  
                     src = {project.image} 
                     width={150} 
                     height={150}
                     alt={project.title}
                     className ='mb-6 rounded'/>
-                    
+                    </a>
                     
                     </motion.div>
                     <motion.div 
@@ -35,7 +35,9 @@ const Projects = () => {
                     initial={{opacity:0,x:100}}
                     transition={{duration:1}}
                     className = 'w-full max-w-xl lg:w-3/4'>
+                            <a href = {project.links}> 
                             <h6 className = 'mb-2 font-semibold'>{project.title}</h6>
+                            </a>
                             <p className='mb-4 text-neutral-400'>{project.description}</p>
                             {project.technologies.map((tech,index)=>(
                                         <span className ='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-cyan-600'key={index}>{tech}</span>
