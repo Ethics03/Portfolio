@@ -11,7 +11,7 @@ import project2 from '../assets/Currency.jpg'
         title:"IMDb Clone",
         image: project3,
         description:
-                "A Movie Database Clone using TypeSript, Nextjs and TMDB API.",
+                "A Movie Database Clone using TypeScript, Nextjs and TMDB API.",
         technologies: ["TypeScript","TailwindCSS","React","Nextjs"],
         links: "https://imdb-clone-liard-nu.vercel.app/",
     },
